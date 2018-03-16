@@ -1,0 +1,158 @@
+/* Add a dark background color with a little bit see-through */
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+
+
+        /* carousel */
+
+#myCarousel{
+    max-height: 500;
+    margin-top: 50px;
+}
+        
+
+        
+    /* Code page d'accueil */
+
+body{
+    background-image: url(../Image/rockywall.png);
+
+    box-shadow: inset 0px -100px 400px 150px rgba(0,0,0,0.3);
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+h1, h2{
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+article{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 3px 5px 5px grey;
+}
+
+.marginTop{
+    margin-top: 70px;
+}
+
+
+.paddingTxtAndImg{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.centerBloc{ 
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+.circleImg{
+    border-radius: 100%;
+}
+
+@media (max-width: 770px) {
+    #margin_top {
+        margin-top: 0;
+    }
+}
+
+
+
+@media (min-width: 770px) {
+    .floatright{
+        float: right;
+    }
+
+    .floatleft{
+        float: left;
+    }
+
+}
+
+@media (max-width: 770px) {
+    .marginSpeImg{
+        margin-top: -50px;
+    }
+
+}
+
+/* Footer */
+footer{
+
+    margin-top: 70px;
+    padding: 60px;
+    padding-top: 20px;
+    background-color: #2d2d30;
+    color: #d5d5d5;
+}
+/* Social network */
+#fb, #tw, #ig, #gp{
+    width: 50px;
+    height: 50px;
+    display: inline;
+    position: absolute;
+}
+
+#fb{
+    background-image: url(../Image/img/reseau-sociaux/logos_sociaux.jpg);
+    background-position: -1px 0px;
+}
+#tw{
+    background-image: url(../Image/img/reseau-sociaux/logos_sociaux.jpg);
+    background-position: -54px 0px;
+
+}
+#ig{
+    background-image: url(../Image/img/reseau-sociaux/logos_sociaux.jpg);
+    background-position: -55px -54px;
+
+}
+#gp{
+    background-image: url(../Image/img/reseau-sociaux/logos_sociaux.jpg);
+    background-position: -1px -54px;
+}
+footer p{
+  margin-top: 20px;
+}

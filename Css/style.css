@@ -1,0 +1,315 @@
+/* Add a dark background color with a little bit see-through */
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+/* Add a gray color to all navbar links */
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* On hover, the links will turn white */
+
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* The active link */
+
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* Remove border color from the collapsible button */
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+/* Dropdown */
+
+.open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* Dropdown links */
+
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* On hover, the dropdown links will turn red */
+
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    padding: 60px;
+    padding-top: 20px;
+    background-color: #2d2d30;
+    color: #d5d5d5;
+}
+
+
+
+/* Social network */
+
+#fb,
+#tw,
+#ig,
+#gp {
+    width: 50px;
+    height: 50px;
+    display: inline;
+    position: absolute;
+}
+
+#fb {
+    background-image: url(../Image/img/reseau-sociaux/logos_sociaux.jpg);
+    background-position: -1px 0px;
+}
+
+#tw {
+    background-image: url(../Image/img/reseau-sociaux/logos_sociaux.jpg);
+    background-position: -54px 0px;
+}
+
+#ig {
+    background-image: url(../Image/img/reseau-sociaux/logos_sociaux.jpg);
+    background-position: -55px -54px;
+}
+
+#gp {
+    background-image: url(../Image/img/reseau-sociaux/logos_sociaux.jpg);
+    background-position: -1px -54px;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Début du CSS pour le prix*/
+
+body {
+    background-image: url(../Image/rockywall.png);
+    box-shadow: inset 0px -100px 400px 150px rgba(0, 0, 0, 0.3);
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+h1 {
+    text-align: center;
+    color: #2d2d30;
+    padding: 10px;
+    padding-bottom: 100px;
+    padding-top: 40px;
+    font-size: 5em;
+}
+
+
+h2 {
+    margin-bottom: -30px;
+    text-align: center;
+    color: #2d2d30;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 3px 5px 5px grey;
+    margin-bottom: 35px;
+    margin-top: 35px
+}
+
+
+.paddingTxt {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.Lorem {
+    padding: 30px;
+    margin-top: 50px;
+    text-align: center
+}
+
+@media screen and (min-width: 1550px) {
+    .Lorem {
+        margin-top: 100px
+    }
+}
+
+table {
+    border: 1px solid lightgrey;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    color: #2d2d30
+}
+
+th {
+    padding: 10px;
+    border: 1px solid lightgrey;
+    text-align: center;
+}
+
+.fline {
+    padding: 10px;
+    border: 1px solid lightgrey;
+    background-color: #f2f2f2
+}
+
+input[type=text],
+textarea {
+    padding: 10px;
+    border: 1px solid #a6a6a6;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    resize: none;
+}
+
+#message {
+    padding-top: inherit 5px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+input[type=submit] {
+    background-color: #2d2d30;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 75px;
+    margin-top: 30px;
+    border: 1px solid #2d2d30
+}
+
+input[type=submit]:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    border: 1px solid #2d2d30;
+    border-radius: 4px
+}
+
+label {
+    margin-top: 30px
+}
+
+.image {
+    overflow: hidden;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    max-width: 100%;
+    min-width: 50%;
+}
+
+.imgg {
+    text-align: center;
+    margin-top: 50px;
+}
+
+select {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #a6a6a6;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    resize: none;
+    background-color: white;
+    color: #666666
+}
